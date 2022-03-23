@@ -1,0 +1,24 @@
+{
+    "name": "myTodoListForEveryDay",
+    "version": "0.0.1",
+    "description": "一个支持创建按天按周按月度按季度等时间范围内重复生成的TodoList工具。让我们更好的自律的完成目标",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon --watch main.js --exec \"electron .\""
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "Colin",
+    "license": "MIT",
+    "devDependencies": {
+        "devtron": "^1.4.0",
+        "electron": "^17.1.2",
+        "nodemon": "^2.0.15"
+    }
+}
